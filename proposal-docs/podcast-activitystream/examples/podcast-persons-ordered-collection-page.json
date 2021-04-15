@@ -1,0 +1,25 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/activitystreams",
+    "https://podcast.org/ns"
+  ],
+  "id": "https://podcast.demo/podcasts/DemoPodcast/persons?page=1",
+  "type": "OrderedCollectionPage",
+  "partOf": "https://podcast.demo/podcasts/DemoPodcast/persons",
+  "totalItems": 2,
+  "first": "https://podcast.demo/podcasts/DemoPodcast/persons?page=1",
+  "current": "https://podcast.demo/podcasts/DemoPodcast/persons?page=1",
+  "last": "https://podcast.demo/podcasts/DemoPodcast/persons?page=1",
+  "orderedItems": [
+    {
+      "@type": "Person",
+      "name": "Jane Doe",
+      "sameAs": "https://en.wikipedia.org/wiki/jane_doe"
+    },
+    {
+      "@type": "Person",
+      "name": "John Doe",
+      "sameAs": "https://en.wikipedia.org/wiki/john_doe"
+    }
+  ]
+}
