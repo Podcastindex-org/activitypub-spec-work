@@ -1,0 +1,21 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/activitystreams",
+    "https://github.com/Podcastindex-org/activitypub-spec-work/blob/main/docs/1.0.md"
+  ],
+  "id": "https://podcast.demo/podcasts/activitypub/episodes/example-episode.mp3",
+  "partOfPodcastEpisode": "https://podcast.demo/media/example-episode",
+  "type": "Audio",
+  "name": "An Example PodcastEpisode Object",
+  "size": 1962804,
+  "bitrate": 320000,
+  "duration": 42,
+  "url": {
+    "href": "https://podcast.demo/media/example-episode.mp3",
+    "type": "Link",
+    "mediaType": "audio/mpeg"
+  },
+  "caption": "https://podcast.demo/media/example-episode/caption",
+  "transcript": "https://podcast.demo/media/example-episode/transcript",
+  "chapters": "https://podcast.demo/media/example-episode/chapters"
+}

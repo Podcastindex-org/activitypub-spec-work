@@ -1,0 +1,82 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/activitystreams",
+    "https://w3id.org/security/v1",
+    "https://github.com/Podcastindex-org/activitypub-spec-work/blob/main/docs/1.0.md"
+  ],
+  "to": ["https://www.w3.org/ns/activitystreams#Public"],
+  "id": "https://podcast.demo/podcasts/DemoPodcast",
+  "type": "Podcast",
+  "rss": "https://podcast.demo/podcasts/DemoPodcast/feed.xml",
+  "name": "The Demo Podcast",
+  "preferredUsername": "DemoPodcast",
+  "summary": "<p>This is a demonstration of the activitypub protocol applied to Podcasts!</p>",
+  "inbox": "https://podcast.demo/podcasts/DemoPodcast/inbox",
+  "outbox": "https://podcast.demo/podcasts/DemoPodcast/outbox",
+  "followers": "https://podcast.demo/podcasts/DemoPodcast/followers",
+  "following": "https://podcast.demo/podcasts/DemoPodcast/following",
+  "episodes": "https://podcast.demo/podcasts/DemoPodcast/episodes",
+  "url": "https://podcast.demo/podcasts/DemoPodcast",
+  "image": {
+    "type": "Image",
+    "mediaType": "image/jpeg",
+    "url": "https://podcast.demo/media/podcasts/DemoPodcast/cover.jpg"
+  },
+  "icon": {
+    "type": "Image",
+    "mediaType": "image/jpeg",
+    "url": "https://podcast.demo/media/podcasts/DemoPodcast/avatar.jpg"
+  },
+  "language": "en",
+  "category": "Fiction > Science Fiction",
+  "explicit": false,
+  "publisher": {
+    "@type": "Organization",
+    "name": "John Doe Corp.",
+    "email": "contact@johndoe.demo"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Jane Doe",
+    "email": "jane.doe@podcast.demo"
+  },
+  "owner": {
+    "@type": "Person",
+    "name": "John Doe",
+    "email": "john.doe@podcast.demo"
+  },
+  "persons": "https://podcast.demo/podcasts/DemoPodcast/persons",
+  "location": {
+    "@type": "Place",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "48.8566969",
+      "longitude": "2.3514616"
+    },
+    "name": "Paris, France"
+  },
+  "trailer": "https://podcast.demo/podcasts/DemoPodcast/trailer",
+  "copyrightHolder": {
+    "@type": "Person",
+    "name": "Jane Doe",
+    "sameAs": "https://en.wikipedia.org/wiki/jane_doe"
+  },
+  "copyrightNotice": "(CC BY-ND 4.0)",
+  "copyrightYear": 2021,
+  "discoverable": false,
+  "complete": false,
+  "locked": true,
+  "license": "https://creativecommons.org/licenses/by-nd/4.0/",
+  "value": {
+    "id": "https://podcast.demo/podcasts/DemoPodcast/value",
+    "type": "lightning",
+    "method": "keysend",
+    "suggested": "0.00000005000",
+    "valueRecipients": "https://podcast.demo/podcasts/DemoPodcast/value/recipients"
+  },
+  "publicKey": {
+    "id": "https://podcast.demo/podcasts/DemoPodcast#main-key",
+    "owner": "https://podcast.demo/podcasts/DemoPodcast",
+    "publicKeyPem": "-----BEGIN PUBLIC KEY----- ... -----END PUBLIC KEY-----"
+  }
+}

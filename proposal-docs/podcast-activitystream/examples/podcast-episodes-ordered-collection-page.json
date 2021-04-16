@@ -1,0 +1,18 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/activitystreams",
+    "https://github.com/Podcastindex-org/activitypub-spec-work/blob/main/docs/1.0.md"
+  ],
+  "id": "https://podcast.demo/podcasts/DemoPodcast/episodes?page=2",
+  "type": "OrderedCollectionPage",
+  "partOf": "https://podcast.demo/podcasts/DemoPodcast/episodes",
+  "totalItems": 42,
+  "first": "https://podcast.demo/podcasts/DemoPodcast/episodes?page=1",
+  "current": "https://podcast.demo/podcasts/DemoPodcast/episodes?page=2",
+  "next": "https://podcast.demo/podcasts/DemoPodcast/episodes?page=3",
+  "last": "https://podcast.demo/podcasts/DemoPodcast/episodes?page=5",
+  "orderedItems": [
+    "# List of ordered PodcastEpisode objects (example in `examples/podcast-episode-object.json`)",
+    "# This example would show 10 episodes per page"
+  ]
+}

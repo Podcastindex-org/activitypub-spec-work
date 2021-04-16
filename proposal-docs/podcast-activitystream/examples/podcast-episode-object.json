@@ -1,0 +1,57 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/activitystreams",
+    "https://github.com/Podcastindex-org/activitypub-spec-work/blob/main/docs/1.0.md"
+  ],
+  "type": "PodcastEpisode",
+  "id": "https://podcast.demo/podcasts/DemoPodcast/episodes/example-episode",
+  "attributedTo": "https://podcast.demo/podcasts/DemoPodcast",
+  "to": ["https://www.w3.org/ns/activitystreams#Public"],
+  "cc": ["https://podcast.demo/podcasts/DemoPodcast/followers"],
+  "name": "An Example PodcastEpisode Object",
+  "description": {
+    "type": "Note",
+    "mediaType": "text/markdown",
+    "content": "Here is the description for the **demo episode**!",
+    "contentMap": {
+      "en": "<p>Here is the description for the <strong>demo episode</strong>!</p>",
+      "fr": "<p>Voici la description pour la <strong>démo de l’épisode</strong> !</p>"
+    }
+  },
+  "image": {
+    "type": "Image",
+    "mediaType": "image/jpeg",
+    "url": "https://podcast.demo/media/example-episode_cover.jpg"
+  },
+  "audio": {
+    "id": "https://podcast.demo/podcasts/activitypub/episodes/example-episode.mp3",
+    "type": "Audio",
+    "name": "An Example PodcastEpisode Object",
+    "size": 1962804,
+    "bitrate": 320000,
+    "duration": 42,
+    "url": {
+      "href": "https://podcast.demo/media/example-episode.mp3",
+      "type": "Link",
+      "mediaType": "audio/mpeg"
+    },
+    "caption": "https://podcast.demo/media/example-episode/caption",
+    "transcript": "https://podcast.demo/media/example-episode/transcript",
+    "chapters": "https://podcast.demo/media/example-episode/chapters"
+  },
+  "partOfSeason": "https://podcast.demo/podcasts/DemoPodcast/seasons/1",
+  "episodeNumber": 1,
+  "explicit": false,
+  "location": {
+    "@type": "Place",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "48.8566969",
+      "longitude": "2.3514616"
+    },
+    "name": "Paris, France"
+  },
+  "discoverable": true,
+  "replies": "https://podcast.demo/podcasts/DemoPodcast/episodes/example-episode/replies",
+  "published": "2021-04-15T18:00:00Z"
+}

@@ -1,0 +1,57 @@
+{
+  "@context": {
+    "id": "@id",
+    "type": "@type",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "schema": "http://schema.org#",
+    "podcast": "https://github.com/Podcastindex-org/activitypub-spec-work/blob/main/docs/1.0.md#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "Podcast": "podcast:Podcast",
+    "PodcastEpisode": "podcast:PodcastEpisode",
+    "publisher": "schema:publisher",
+    "author": "schema:author",
+    "owner": "schema:Person",
+    "category": "schema:category",
+    "language": "schema:inLanguage",
+    "location": "schema:location",
+    "license": "schema:license",
+    "explicit": "podcast:explicit",
+    "discoverable": "podcast:discoverable",
+    "complete": "podcast:complete",
+    "locked": "podcast:locked",
+    "copyrightHolder": "schema:copyrightHolder",
+    "copyrightNotice": "schema:copyrightNotice",
+    "copyrightYear": "schema:copyrightYear",
+    "value": "podcast:value",
+    "description": "as:Note",
+    "partOfPodcastEpisode": "podcast:partOfPodcastEpisode",
+    "episodes": {
+      "@id": "podcast:episodes",
+      "@type": "@id"
+    },
+    "persons": {
+      "@id": "podcast:persons",
+      "@type": "@id"
+    },
+    "movedTo": {
+      "@id": "as:movedTo",
+      "@type": "@id"
+    },
+    "audio": {
+      "@id": "as:Audio",
+      "@type": "@id"
+    },
+    "partOfSeason": {
+      "@id": "schema:PodcastSeason",
+      "@type": "@id"
+    },
+    "trailer": {
+      "@id": "podcast:PodcastEpisode",
+      "@type": "@id"
+    },
+    "valueRecipients": {
+      "@id": "podcast:valueRecipients",
+      "@type": "@id"
+    }
+  }
+}

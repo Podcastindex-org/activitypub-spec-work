@@ -1,0 +1,7 @@
+{
+  "id": "https://podcast.demo/podcasts/activitypub/seasons/1",
+  "seasonNumber": 1,
+  "numberOfEpisodes": 12,
+  "episodes": "https://podcast.demo/podcasts/activitypub/seasons/1/episodes",
+  "trailer": "https://podcast.demo/podcasts/activitypub/seasons/1/trailer"
+}
