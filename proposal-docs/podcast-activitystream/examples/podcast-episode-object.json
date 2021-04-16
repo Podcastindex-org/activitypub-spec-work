@@ -23,7 +23,22 @@
     "mediaType": "image/jpeg",
     "url": "https://podcast.demo/media/example-episode_cover.jpg"
   },
-  "audio": "https://podcast.demo/podcasts/DemoPodcast/episodes/example-episode.mp3",
+  "audio": {
+    "id": "https://podcast.demo/podcasts/activitypub/episodes/example-episode.mp3",
+    "type": "Audio",
+    "name": "An Example PodcastEpisode Object",
+    "size": 1962804,
+    "bitrate": 320000,
+    "duration": 42,
+    "url": {
+      "href": "https://podcast.demo/media/example-episode.mp3",
+      "type": "Link",
+      "mediaType": "audio/mpeg"
+    },
+    "caption": "https://podcast.demo/media/example-episode/caption",
+    "transcript": "https://podcast.demo/media/example-episode/transcript",
+    "chapters": "https://podcast.demo/media/example-episode/chapters"
+  },
   "partOfSeason": "https://podcast.demo/podcasts/DemoPodcast/seasons/1",
   "episodeNumber": 1,
   "explicit": false,

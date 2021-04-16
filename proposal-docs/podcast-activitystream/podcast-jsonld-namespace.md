@@ -3,7 +3,10 @@
 > Version 1.0 by Yassine Doghri - 2021.04.15
 
 To retain maximum compatibility and avoid reinventing the wheel, most of the attributes are defined as being a subset of existing objects in the [ActivityStreams 2.0 data format](https://www.w3.org/TR/activitystreams-vocabulary/) and [Schema.org](https://schema.org/).
+
 For more information, see [Namespace Reference](#namespace-references).
+
+Here is defined the vocabulary to include when working with a Podcast ActivityStream:
 
 ```json
 {
