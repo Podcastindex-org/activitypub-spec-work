@@ -15,7 +15,7 @@ Here is defined the vocabulary to include when working with a Podcast ActivitySt
     "type": "@type",
     "as": "https://www.w3.org/ns/activitystreams#",
     "schema": "http://schema.org#",
-    "podcast": "https://podcast.org/ns#",
+    "podcast": "https://github.com/Podcastindex-org/activitypub-spec-work/blob/main/docs/1.0.md#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "Podcast": "podcast:Podcast",
     "PodcastEpisode": "podcast:PodcastEpisode",

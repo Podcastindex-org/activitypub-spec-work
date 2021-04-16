@@ -30,7 +30,7 @@ Here is an example of a Podcast Actor:
   "@context": [
     "https://www.w3.org/ns/activitystreams",
     "https://w3id.org/security/v1",
-    "https://podcast.org/ns"
+    "https://github.com/Podcastindex-org/activitypub-spec-work/blob/main/docs/1.0.md"
   ],
   "to": ["https://www.w3.org/ns/activitystreams#Public"],
   "id": "https://podcast.demo/podcasts/DemoPodcast",
@@ -95,6 +95,13 @@ Here is an example of a Podcast Actor:
   "complete": false,
   "locked": true,
   "license": "https://creativecommons.org/licenses/by-nd/4.0/",
+  "value": {
+    "type": "Value",
+    "id": "https://podcast.demo/podcasts/DemoPodcast/value",
+    "method": "keysend",
+    "suggested": "0.00000005000",
+    "valueRecipients": "https://podcast.demo/podcasts/DemoPodcast/value/recipients"
+  },
   "publicKey": {
     "id": "https://podcast.demo/podcasts/DemoPodcast#main-key",
     "owner": "https://podcast.demo/podcasts/DemoPodcast",
@@ -120,7 +127,7 @@ Here is an example of a PodcastEpisode Object:
 {
   "@context": [
     "https://www.w3.org/ns/activitystreams",
-    "https://podcast.org/ns"
+    "https://github.com/Podcastindex-org/activitypub-spec-work/blob/main/docs/1.0.md"
   ],
   "type": "PodcastEpisode",
   "id": "https://podcast.demo/podcasts/DemoPodcast/episodes/example-episode",

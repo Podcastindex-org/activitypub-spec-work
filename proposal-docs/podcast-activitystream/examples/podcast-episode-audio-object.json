@@ -1,7 +1,7 @@
 {
   "@context": [
     "https://www.w3.org/ns/activitystreams",
-    "https://podcast.org/ns#"
+    "https://github.com/Podcastindex-org/activitypub-spec-work/blob/main/docs/1.0.md"
   ],
   "id": "https://podcast.demo/podcasts/activitypub/episodes/example-episode.mp3",
   "partOfPodcastEpisode": "https://podcast.demo/media/example-episode",
