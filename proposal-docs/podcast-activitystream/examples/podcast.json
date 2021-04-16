@@ -68,8 +68,8 @@
   "locked": true,
   "license": "https://creativecommons.org/licenses/by-nd/4.0/",
   "value": {
-    "type": "Value",
     "id": "https://podcast.demo/podcasts/DemoPodcast/value",
+    "type": "lightning",
     "method": "keysend",
     "suggested": "0.00000005000",
     "valueRecipients": "https://podcast.demo/podcasts/DemoPodcast/value/recipients"
